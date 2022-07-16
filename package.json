@@ -1,0 +1,31 @@
+{
+    "name": "imhex-theme",
+    "displayName": "ImHex theme",
+    "description": "Theme that mimics ImHex",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ImHex Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ImHex_dark-color-theme.json"
+            },
+            {
+                "label": "ImHex Light",
+                "uiTheme": "vs",
+                "path": "./themes/ImHex_light-color-theme.json"
+            },
+            {
+                "label": "ImHex Classic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ImHex_classic-color-theme.json"
+            }
+        ]
+    }
+}
