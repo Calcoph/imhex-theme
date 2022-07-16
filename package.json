@@ -2,7 +2,7 @@
     "name": "imhex-theme",
     "displayName": "ImHex theme",
     "description": "Theme that mimics ImHex",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -27,5 +27,9 @@
                 "path": "./themes/ImHex_classic-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "url": "https://github.com/Calcoph/imhex-theme"
+    },
+    "publisher": "calcoph"
 }
