@@ -2,7 +2,7 @@
     "name": "imhex-theme",
     "displayName": "ImHex theme",
     "description": "Theme that mimics ImHex",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -25,6 +25,11 @@
                 "label": "ImHex Classic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ImHex_classic-color-theme.json"
+            },
+            {
+                "label": "ImHex Rich Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ImHex_rich_dark-color-theme.json"
             }
         ]
     },

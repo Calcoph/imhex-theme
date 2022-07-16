@@ -92,7 +92,7 @@
         {
             "name": "Char literal",
             "scope": [
-                "string.quoted.double"
+                "string.quoted.single"
             ],
             "settings": {
                 "foreground": "#704030"

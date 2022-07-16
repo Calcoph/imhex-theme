@@ -1,9 +1,9 @@
-# Change Log
+## v0.2.0
 
-All notable changes to the "imhex-theme" extension will be documented in this file.
+New theme: ImHex Rich Dark
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## v0.1.0
+3 themes
+ * ImHex Dark
+ * ImHex Light
+ * ImHex Classic

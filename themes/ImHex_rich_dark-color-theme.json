@@ -1,45 +1,45 @@
 {
-	"name": "ImHex Classic",
+	"name": "ImHex Dark",
 	"colors": {
-		"editor.background": "#000080",
-		"editor.foreground": "#FFFF00",
-        "editorCursor.foreground": "#000000",
-        "editorError.background": "#FF1000A0",
-        "debugIcon.breakpointForeground": "#0080F080",
-        "editorLineNumber.foreground": "#005050",
-        "editorLineNumber.activeForeground": "#005050",
+		"editor.background": "#101010",
+		"editor.foreground": "#FFFFFF",
+        "editorCursor.foreground": "#E0E0E0",
+        "editorError.background": "#FF200080",
+        "debugIcon.breakpointForeground": "#0080F040",
+        "editorLineNumber.foreground": "#007070",
+        "editorLineNumber.activeForeground": "#007070",
         "editor.lineHighlightBackground": "#00000040",
-        "editor.lineHighlightBorder": "#00000040",
+        "editor.lineHighlightBorder": "#A0A0A040",
         "editor.inactiveSelectionBackground": "#80808040",
-        "activityBar.activeBackground": "#6D6DCF",
-        "activityBar.activeBorder": "#5a5acd",
-        "activityBar.background": "#555675",
-        "activityBar.foreground": "#1b3572",
-		"activityBarBadge.background": "#6D6DCF",
-        "sideBar.background": "#36364e",
-        "sideBarSectionHeader.background": "#36364e",
-        "badge.background": "#3B3B3F",
-        "button.background": "#3B3B3F",
+        "activityBar.activeBackground": "#3C7FCF",
+        "activityBar.activeBorder": "#296aba",
+        "activityBar.background": "#242424",
+        "activityBar.foreground": "#20408C",
+		"activityBarBadge.background": "#3C7FCF",
+        "sideBar.background": "#151515",
+        "sideBarSectionHeader.background": "#303033",
+        "badge.background": "#23436C",
+        "button.background": "#23436C",
         "dropdown.background": "#101010ee",
         "editor.findMatchBackground": "#3A3A52",  
-        "editor.selectionBackground": "#00006080",
+        "editor.selectionBackground": "#183858",
         "editorGroup.dropBackground": "#1D355054",
-        "editorGroupHeader.tabsBackground": "#36364e",
+        "editorGroupHeader.tabsBackground": "#151515",
         "editorWidget.background": "#101010ee",
-        "focusBorder": "#6464AE",
-        "input.background": "#3B3B3Fee",
-        "inputOption.activeBorder": "#6464AE",
-        "panel.background": "#000080",
+        "focusBorder": "#3369AD",
+        "input.background": "#23436Cee",
+        "inputOption.activeBorder": "#3369AD",
+        "panel.background": "#101010",
 		"panel.border": "#3F3F48",
-        "panelTitle.activeBorder": "#6464AE",
+        "panelTitle.activeBorder": "#3369AD",
         "selection.background": "#183858",
-        "statusBar.background": "#111517",
-        "tab.activeBorder": "#6464AE",
-        "tab.border": "#555675",
-        "tab.activeBackground": "#6464AE",
+        "statusBar.background": "#151617",
+        "tab.activeBorder": "#3369AD",
+        "tab.border": "#242424",
+        "tab.activeBackground": "#3369AD",
         "tab.inactiveBackground": "#121A26",
-        "titleBar.activeBackground": "#555675",
-        "titleBar.inactiveBackground": "#555675",
+        "titleBar.activeBackground": "#242424",
+        "titleBar.inactiveBackground": "#242424",
         "sideBar.border": "#3F3F48",
         "activityBar.border": "#3F3F48",
         "editorGroup.border": "#3F3F48",
@@ -51,10 +51,48 @@
             "scope": [
                 "keyword.operator",
                 "variable.language.dollar.hexpat",
-                "source"
+                "source",
+                "punctuation"
             ],
             "settings": {
-                "foreground": "#FFFF00"
+                "foreground": "#7f7f7f"
+            }
+        },
+        {
+            "name": "Attribute",
+            "scope": [
+                "meta.attribute"
+            ],
+            "settings": {
+                "foreground": "#7889a1",
+            }
+        },
+        {
+            "name": "Type",
+            "scope": [
+                "entity.name.type",
+            ],
+            "settings": {
+                "foreground": "#7cd7f3",
+            }
+        },
+        {
+            "name": "Dollar",
+            "scope": [
+                "variable.language.dollar.hexpat"
+            ],
+            "settings": {
+                "foreground": "#9e0cac",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Parameter",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#a8abc0",
             }
         },
         {
@@ -63,7 +101,7 @@
                 "keyword"
             ],
             "settings": {
-                "foreground": "#00FFFF"
+                "foreground": "#569CD6"
             }
         },
         {
@@ -78,25 +116,21 @@
         {
             "name": "String",
             "scope": [
-                "string.quoted.double"
+                "string.quoted.double",
+                "punctuation.definition.string.quoted.double"
             ],
             "settings": {
-                "foreground": "#008080"
+                "foreground": "#E07070"
             }
         },
         {
             "name": "Char literal",
             "scope": [
-                "string.quoted.single"
+                "string.quoted.single",
+                "punctuation.definition.string.quoted.single"
             ],
             "settings": {
-                "foreground": "#008080"
-            }
-        },
-        {
-            "name": "Punctuation",
-            "settings": {
-                "foreground": "#FFFFFF"
+                "foreground": "#E0A070"
             }
         },
         {
@@ -105,19 +139,18 @@
                 "meta.preprocessor"
             ],
             "settings": {
-                "foreground": "#008000"
+                "foreground": "#808040"
             }
         },
         {
             "name": "Identifier",
             "scope": [
                 "variable",
-                "storage.type",
                 "variable.language",
                 "entity.name"
             ],
             "settings": {
-                "foreground": "#008000"
+                "foreground": "#AAAAAA"
             }
         },
         {
@@ -127,16 +160,11 @@
               "storage.type.unsigned",
               "storage.type.float",
               "storage.type.special",
-              "storage.modifier"
+              "storage.modifier",
+              "storage.type"
             ],
             "settings": {
-                "foreground": "#FFFFFF"
-            }
-        },
-        {
-            "name": "Preproc identifier",
-            "settings": {
-                "foreground": "#FF00FF"
+                "foreground": "#4DC69B"
             }
         },
         {
@@ -145,7 +173,7 @@
                 "comment.line"
             ],
             "settings": {
-                "foreground": "#808080"
+                "foreground": "#206020"
             }
         },
         {
@@ -154,7 +182,7 @@
                 "comment.block"
             ],
             "settings": {
-                "foreground": "#404040"
+                "foreground": "#206040"
             }
         },
 		{
