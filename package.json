@@ -2,7 +2,7 @@
     "name": "imhex-theme",
     "displayName": "ImHex theme",
     "description": "Theme that mimics ImHex",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -36,5 +36,6 @@
     "repository": {
         "url": "https://github.com/Calcoph/imhex-theme"
     },
-    "publisher": "calcoph"
+    "publisher": "calcoph",
+    "icon": "icon.png"
 }
